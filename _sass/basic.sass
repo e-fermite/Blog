@@ -1,54 +1,92 @@
 body
-  font-family: "Source Sans Pro"
-  font-weight: 300
-  font-size: 18px
-  line-height: 1.65
-  margin: 0
-  -webkit-font-smoothing: antialiased
-  -moz-osx-font-smoothing: grayscale
-
-a
-  color: inherit
-  text-decoration: inherit
-  transition: color .2s ease-out
-  &.selected, &:hover
-    color: reduce(100)
-
-a, b, strong, th
-  font-weight: 400
+    display: flex
+    min-height: 100%
+    font-family: "Source Sans Pro", "Calibri", "Helvetica", sans-serif
+    font-weight: 300
+    font-size: 1.4em
+    font-size: calc(.6vw + .8em)
+    flex-direction: column
+    line-height: 1.6
+    margin: 0
 
 h1, h2, h3, h4, h5, h6
-  font-weight: 300
+    font-weight: 600
+    line-height: 1em
+    a
+        font-size: 1.2em
 
-main
-  flex-grow: 1
+a
+    color: inherit
+    text-decoration: inherit
+    transition: color .2s ease-out
+    &:hover
+        color: gray
+    &#selected
+        color: #46e
 
-article a
-  color: #68f
+strong, b, th
+    font-weight: 600
 
-header a, footer a
-  color: inherit
-  font-weight: 300
+iframe, img, embed, object, video
+    max-width: 100%
+    border-radius: 2px
 
-hr
-  border: 1px solid reduce(16)
-  margin: 2em 0
+table
+    border-collapse: collapse
+    width: 100%
+    th, td
+        padding: .5em 1em
+        border: 1px solid
 
-header span, header time
-  color: #949494
+pre
+    overflow: auto
+    padding: 1em
+    font-size: .8em
+
 
 blockquote
-  border-left: 5px solid #68f
-  padding-left: 1.5em
-  margin: 0
+    border-left: 5px solid #46e
+    margin: 0
+    padding-left: 1.5em
 
-body, aside, main
-  flex-direction: column
+nav
+    ul
+        padding-left: 0
+    li
+        display: inline-block
+        margin-right: 10%
 
-img
-  max-width: 100%
-  height: auto
-  border-radius: 2px
+article
+    flex-grow: 1
+    border-top: 1px solid
+    overflow-x: auto
+    header
+        text-align: center
+    > div
+        margin-bottom: 2em
+        font-size: .8em
+        h1, h2
+            &:before
+                font-family: "FontAwesome"
+                content: "\f14a \00a0"
+        h3, h4, h5, h6
+            &:before
+                font-family: "FontAwesome"
+                content: "\f00c \00a0"
 
-figure
-  margin: 1em 0
+    footer a
+        border: 1px solid
+        border-radius: 3px
+        padding: .3em .6em
+        transition: background-color .2s ease-out
+
+body > header h1
+    margin-top: .25em
+    margin-bottom: 1em
+
+body > footer
+    display: flex
+    justify-content: space-between
+
+#paginate
+    padding-bottom: 1.5em
