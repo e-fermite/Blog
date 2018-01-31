@@ -19,9 +19,9 @@ tags:
 ### 基本的なところ
 [GitHub Pages](https://pages.github.com/)と[jekyll](https://jekyllrb.com/)で結構こねくり回せるブログが作れると知って、興味本位から[GitHub Pages](https://pages.github.com/)を選択し。
 
-色々とテーマが用意されているし、公式で用意されてないものでもgithubからforkして持ってくれば良いっぽい。今回は以下のテーマを使わせてもらっている。
+色々とテーマが用意されているし、公式で用意されてないものでもgithubからforkして持ってくれば良いっぽい。今回はjikoさんのテーマを使わせてもらっています。
 
-<div class="github-widget" data-repo="niklasbuschmann/contrast"></div>
+<div class="github-widget" data-repo="j-i-k-o/blog"></div>
 
 ブログの基本的な情報は\_config.ymlに入力すればよい。
 
