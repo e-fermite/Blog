@@ -8,3 +8,4 @@ title: "About"
 
 東京工業大学理学部物理学科B3
 
+鉞とかはTwitter:[e_fermite](https://twitter.com/e_fermite/)まで
