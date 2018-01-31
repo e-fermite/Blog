@@ -1,6 +1,6 @@
 ---
 title:  "今更ながらブログ開設"
-date:   2018-01-31 12:00:00 +0900
+date:   2018-01-30 12:00:00 +0900
 category: objects
 tags:
 - jekyll
