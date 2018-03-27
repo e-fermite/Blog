@@ -28,7 +28,7 @@ tags:
 投稿するときはmarkdownで書いて\_post以下に入れて
 ```bash
 $ git add .
-$ git commit ~ "nyan"
+$ git commit -m "nyan"
 $ git push
 ```
 とかやればおっけー、とても楽。しかも
